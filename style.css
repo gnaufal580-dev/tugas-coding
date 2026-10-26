@@ -1,0 +1,40 @@
+
+h1 {
+    text-align: center;
+}
+nav {
+    display: flex;
+    gap: 3px;
+    padding: 3px;
+    border: 1px solid #999;
+}
+
+nav a {
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #999;
+    padding: 18px 10px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #ddd;
+}
+
+.istirahat td {
+    background-color: hsla(67, 86%, 54%, 0.918);
+    text-align: center;
+    font-weight: bold;
+}
